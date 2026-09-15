@@ -1,0 +1,3 @@
+name = "Poker"
+card = "locales/en/card.csv"
+pile = "locales/en/pile.csv"

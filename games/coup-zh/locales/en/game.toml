@@ -1,0 +1,4 @@
+name = "Coup"
+card = "locales/en/card.csv"
+pile = "locales/en/pile.csv"
+help = "locales/en/help.txt"

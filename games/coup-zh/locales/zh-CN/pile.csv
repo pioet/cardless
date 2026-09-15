@@ -1,0 +1,7 @@
+name,area,orientation,category
+牌堆,public,down,role
+国库,public,down,coin
+阵亡,public,up,role
+交换区,public,up,
+角色,private,up,role
+钱包,private,up,coin

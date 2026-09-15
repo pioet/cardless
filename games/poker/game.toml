@@ -1,0 +1,9 @@
+version = "1.0.0"
+editor = ""
+comment = ""
+max_players = 4
+default_locale = "en"
+
+[[custom_actions]]
+method = "top"
+count = 17

@@ -1,0 +1,7 @@
+name,category,description,corner,center,count
+"Duke","role","Take 3 coins from the Treasury. May block Foreign Aid.",,"images/duke.png",3
+"Assassin","role","Pay 3 coins to assassinate a target player; that player loses 1 influence.",,"images/assassin.png",3
+"Captain","role","Steal up to 2 coins from another player. May block stealing.",,"images/captain.png",3
+"Ambassador","role","Draw 2 role cards from the deck, then return 2 cards. May block stealing.",,"images/ambassador.png",3
+"Contessa","role","May block an assassination targeting you.",,"images/contessa.png",3
+"Coin","coin","A coin token used for the Treasury, income, and payments.",,"images/coin.png",50

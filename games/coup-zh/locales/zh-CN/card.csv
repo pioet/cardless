@@ -1,0 +1,7 @@
+name,category,description,corner,center,count
+"公爵","role","从国库领取 3 枚金币。可以阻止外援。",,"images/duke.png",3
+"刺客","role","支付 3 枚金币刺杀一名目标玩家，该玩家失去 1 点影响力。",,"images/assassin.png",3
+"船长","role","从另一名玩家处偷取最多 2 枚金币。可以阻止偷窃。",,"images/captain.png",3
+"大使","role","从牌堆抽取 2 张角色牌，然后归还 2 张。可以阻止偷窃。",,"images/ambassador.png",3
+"伯爵夫人","role","可以阻止针对你的刺杀。",,"images/contessa.png",3
+"金币","coin","一枚金币标记，用于国库、收入与支付。",,"images/coin.png",50

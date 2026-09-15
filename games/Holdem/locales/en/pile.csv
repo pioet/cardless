@@ -1,0 +1,7 @@
+name,area,orientation,category
+Deck,public,down,hand
+Board,public,up,hand
+Bank,public,down,coin
+Hand,private,up,hand
+Wallet,private,up,coin
+Bet,private,up,coin

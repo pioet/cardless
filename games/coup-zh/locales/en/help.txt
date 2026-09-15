@@ -1,0 +1,16 @@
+1. Each player starts with 2 role cards and 2 coins. Role cards represent influence. Reveal 1 role card when you lose influence; after both cards are revealed, you are eliminated. The last player remaining wins.
+2. Take 1 action on each turn.
+General actions:
+* Income: Take 1 coin.
+* Foreign Aid: Take 2 coins. This may be blocked by the Duke.
+* Coup: Pay 7 coins to make 1 player lose 1 influence. You must Coup if you have 10 or more coins.
+Role actions:
+* Duke: Take 3 coins. May block Foreign Aid.
+* Assassin: Pay 3 coins to assassinate 1 player.
+* Captain: Steal up to 2 coins from 1 player. May block stealing.
+* Ambassador: Draw 2 cards from the Court Deck. Choose which cards to keep with your unrevealed influence, return the rest to the deck, then shuffle. May block stealing.
+* Contessa: May block an assassination.
+3. Challenge: Any role claim may be challenged.
+* If the claim is true: The claimant reveals the matching role card and the challenger loses 1 influence. Return the revealed card to the Court Deck, shuffle it, then draw a replacement.
+* If the claim is false: The claimant loses 1 influence, and the action or block fails.
+4. Cards returned to the Court Deck are always shuffled back in; they do not go to the Revealed pile. A revealed influence card remains in front of its player and is not returned to the deck.

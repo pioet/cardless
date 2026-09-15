@@ -1,0 +1,6 @@
+name,area,orientation
+Deck,public,down
+Play,public,up
+Board,public,up
+Useless,public,up
+Hand,private,up

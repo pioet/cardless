@@ -1,0 +1,4 @@
+name = "政变"
+card = "locales/zh-CN/card.csv"
+pile = "locales/zh-CN/pile.csv"
+help = "locales/zh-CN/help.txt"

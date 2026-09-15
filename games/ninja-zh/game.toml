@@ -1,0 +1,13 @@
+name = "忍者之夜"
+max_players = 11
+card = "card.csv"
+pile = "pile.csv"
+help = "help.txt"
+
+[[custom_actions]]
+method = "top"
+count = 2
+
+[[custom_actions]]
+method = "top"
+count = 3

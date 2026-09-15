@@ -1,0 +1,13 @@
+name,area,orientation,category
+流派牌堆,public,down,流派
+忍者牌堆,public,down,忍者
+荣誉袋,public,down,荣誉
+已打出,public,up,忍者
+交换区1,public,down,
+交换区2,public,down,
+交换区3,public,down,
+废弃,public,up,
+手牌,private,up,忍者
+临时,private,up,
+流派,private,up,流派
+荣誉,private,up,荣誉

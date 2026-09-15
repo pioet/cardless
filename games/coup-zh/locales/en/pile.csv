@@ -1,0 +1,7 @@
+name,area,orientation,category
+Court Deck,public,down,role
+Treasury,public,down,coin
+Revealed,public,up,role
+Exchange,public,up,
+Influence,private,up,role
+Coins,private,up,coin
