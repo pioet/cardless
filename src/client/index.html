@@ -258,6 +258,46 @@
       background: var(--success);
       box-shadow: 0 0 0 3px rgba(85, 214, 165, 0.16);
     }
+    .lobby-credit {
+      position: absolute;
+      right: max(16px, env(safe-area-inset-right, 0px));
+      bottom: max(12px, env(safe-area-inset-bottom, 0px));
+      z-index: 1;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 6px 11px;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      background: rgba(32, 32, 42, 0.82);
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 600;
+      text-decoration: none;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+      transition: color 0.2s ease, border-color 0.2s ease, background 0.2s ease;
+    }
+    .lobby-credit:hover,
+    .lobby-credit:focus-visible {
+      color: var(--gold);
+      border-color: rgba(229, 183, 95, 0.5);
+      background: rgba(32, 32, 42, 0.95);
+      outline: none;
+    }
+    .lobby-credit .credit-label {
+      color: var(--faint);
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      font-size: 10px;
+    }
+    .lobby-credit .credit-name {
+      color: var(--text);
+    }
+    .lobby-credit:hover .credit-name,
+    .lobby-credit:focus-visible .credit-name {
+      color: var(--gold);
+    }
 
     /* ── Room (Waiting) Screen ────────────────────────────────── */
     #screen-room {
@@ -1347,6 +1387,13 @@
       #screen-lobby {
         padding-top: 16vh;
       }
+      /* On small screens lift the credit above the centered
+         "Resume Room" button so the two never overlap. */
+      .lobby-credit {
+        bottom: calc(72px + var(--safe-bottom));
+        padding: 5px 10px;
+        font-size: 11px;
+      }
       .lobby-form {
         max-width: none;
       }
@@ -1466,6 +1513,10 @@
       <button id="btn-join" class="btn-primary hidden">Join Room</button>
     </div>
     <button id="btn-resume" class="resume-room-button hidden" type="button"><span class="status-dot" aria-hidden="true"></span>Resume Room</button>
+    <a class="lobby-credit" href="https://github.com/pioet" target="_blank" rel="noopener noreferrer" aria-label="Author: pioet on GitHub">
+      <span class="credit-label">Author</span>
+      <span class="credit-name">pioet</span>
+    </a>
   </div>
 
   <div id="game-picker-modal" class="modal-backdrop hidden" role="dialog" aria-modal="true" aria-labelledby="game-picker-title">
